@@ -1,5 +1,7 @@
 # Ansh Gupta — 3D Portfolio
 
+![alt text](<Screenshot 2026-04-01 at 12.17.03 AM.png>)
+
 A 3D interactive portfolio built with React, Three.js, and GSAP.
 
 ## About
