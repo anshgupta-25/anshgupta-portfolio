@@ -1,8 +1,8 @@
 import {
   FaGithub,
   FaLinkedinIn,
+  FaInstagram,
 } from "react-icons/fa6";
-import { SiHackerrank } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -61,7 +61,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/anshgupta"
+            href="https://github.com/anshgupta-25"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,11 +79,11 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.hackerrank.com/profile/gupta_ansh2506"
+            href="https://www.instagram.com/gupta_ansh25/"
             target="_blank"
             rel="noreferrer"
           >
-            <SiHackerrank />
+            <FaInstagram />
           </a>
         </span>
         <span>

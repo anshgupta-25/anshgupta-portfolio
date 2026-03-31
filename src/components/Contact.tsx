@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/anshgupta"
+              href="https://github.com/anshgupta-25"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -50,13 +50,13 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.hackerrank.com/profile/gupta_ansh2506"
+              href="https://www.instagram.com/gupta_ansh25/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              HackerRank <MdArrowOutward />
+              Instagram <MdArrowOutward />
             </a>
             <a
               href="mailto:gupta.ansh2506@gmail.com"
