@@ -1,9 +1,9 @@
 # Ansh Gupta — 3D Portfolio
 
-<img width="2938" height="1488" alt="image" src="https://github.com/user-attachments/assets/08c0e4e8-3776-42aa-91bd-5108f6cec3ec" />
-
-
 A 3D interactive portfolio built with React, Three.js, and GSAP.
+
+
+<img width="2938" height="1488" alt="image" src="https://github.com/user-attachments/assets/08c0e4e8-3776-42aa-91bd-5108f6cec3ec" />
 
 ## About
 
