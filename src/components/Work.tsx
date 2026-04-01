@@ -5,25 +5,28 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "GhostCut - Where Evidence Meets Intelligence",
+    category: "RAG-Based LLM Reliability System",
+    tools: "Python, LangChain, RAG, Vector Databases",
+    description: "Award-winning framework that secured 2nd Place at the DataForge'26 Hackathon (IIT Roorkee). Engineered to eliminate LLM hallucinations through advanced context compression, retrieval integrity auditing, and verified source attribution.",
+    image: "/images/Ghostcut.png",
+    link: "https://anshguptaa.in",
+  },
+  {
     title: "Nexus AI",
-    category: "Privacy-First Local AI Assistant",
-    tools: "Ollama (Mistral LLM), Playwright, Python",
+    category: "Intelligent Autonomous Agent",
+    tools: "Python, Playwright, Selenium, LangChain, Ollama",
+    description: "A privacy-first AI agent powered by local Ollama Mistral with a ChatGPT-style interface. Features smart recency scoring, Wikipedia-priority research, and CAPTCHA-free web search via Playwright. Built at the Hackxlerate Hackathon.",
     image: "/images/nexus.png",
-    link: "https://github.com/anshgupta-25/Nexus-App",
+    link: "https://anshguptaa.in",
   },
   {
-    title: "Customer Service Chatbot",
-    category: "NLP-Powered Chatbot",
+    title: "Customer Service Chatbot - Smart Support Engine",
+    category: "NLP-Powered Conversational Agent",
     tools: "Python, NLP, Flask, Git",
+    description: "An intelligent conversational agent that automates customer interactions using natural language processing. Delivers high-accuracy responses with contextual awareness and seamless multi-turn dialogue handling.",
     image: "/images/chatbot.png",
-    link: "#",
-  },
-  {
-    title: "Advanced Speech-to-Text",
-    category: "Real-Time Transcription Tool",
-    tools: "Python, Google Speech API, CMU Sphinx, Tkinter",
-    image: "/images/speechtotext.png",
-    link: "#",
+    link: "https://github.com/anshgupta-25/customer-service-chatbot",
   },
 ];
 
@@ -99,6 +102,11 @@ const Work = () => {
                         <p className="carousel-category">
                           {project.category}
                         </p>
+                        {project.description && (
+                          <p className="carousel-description">
+                            {project.description}
+                          </p>
+                        )}
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
