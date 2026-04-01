@@ -45,20 +45,6 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>B.Tech CSE (Gen AI)</h4>
-                <h5>Lovely Professional University</h5>
-              </div>
-              <h3>2024–28</h3>
-            </div>
-            <p>
-              Pursuing Bachelor of Technology in Computer Science with
-              specialization in Generative AI. Maintaining a CGPA of 8.20.
-              HackXlerate 2025 Top 7 Finalist. Solved 500+ DSA problems on ByteXL.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
                 <h4>Google Cloud Arcade</h4>
                 <h5>Legend Tier</h5>
               </div>
@@ -68,6 +54,20 @@ const Career = () => {
               Completed 400+ hands-on labs and earned 50+ verified skill badges
               for AI, Cloud, and DevOps projects. Achieved the Legend Tier
               distinction.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>B.Tech CSE (Gen AI)</h4>
+                <h5>Lovely Professional University</h5>
+              </div>
+              <h3>2024–28</h3>
+            </div>
+            <p>
+              Pursuing Bachelor of Technology in Computer Science with
+              specialization in Generative AI. Maintaining a CGPA of 8.20.
+              HackXlerate 2025 Top 7 Finalist. Solved 500+ DSA problems on ByteXL.
             </p>
           </div>
         </div>
